@@ -1,0 +1,49 @@
+.wrapper {
+    background-color: #121212;
+}
+
+.container {
+    background-color: rgba(39, 39, 39, .5);
+    padding-bottom: 4%;
+}
+
+.bg-video {
+    text-align: center;
+}
+
+video {
+    width: 100%;
+}
+
+.music-player {
+    width: 100%;
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    width: 100%;
+    background-color: rgba(29, 29, 29, .5);
+}
+
+.row.-second {
+    margin-bottom: 10%;
+}
+
+.songs-list-holder {
+    display: flex;
+    align-items: center;
+}
+
+.songs-list {
+    width: 100%;
+    list-style: none;
+    padding: 0;
+}
+
+.songs-list > li {
+    margin-bottom: 10px;
+    width: 100%;
+}
+
+audio {
+    width: 100%;
+}
